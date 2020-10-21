@@ -31,4 +31,12 @@ public class CodeupCryptTest {
         }
         return hash;
     }
+
+
+    public static boolean checkPassword(String password, String hash) {
+        return hash.equals(hashPassword(password));
+    }
+
+
+
 }

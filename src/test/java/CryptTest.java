@@ -26,4 +26,12 @@ public class CryptTest {
 
     }
 
+    @Test
+    public void checkIfCheckPasswordWorks(){
+        assertTrue(CodeupCryptTest.checkPassword("fer", "f3r"));
+
+
+    }
+
+
 }
