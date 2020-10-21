@@ -19,7 +19,10 @@ public class CryptTest {
 
     @Test
     public void hashPassword(){
-        assertEquals("jason",CodeupCryptTest.hashPassword("jason"));
+        assertEquals("C0d39p", CodeupCryptTest.hashPassword("Codeup"));
+        assertEquals("F3r", CodeupCryptTest.hashPassword("Fer"));
+        assertEquals("123", CodeupCryptTest.hashPassword("123"));
+        assertEquals("124", CodeupCryptTest.hashPassword("12a"));
 
     }
 
