@@ -40,5 +40,13 @@ public class myFirstTest {
 
     }
 
+    @Test
+    public void testIfBooleansWorkWithPHP(){
+        String language = "PHP";
+        assertTrue(language.contains("H"));
+        assertFalse(language.contains("J"));
+
+    }
+
 
 }
