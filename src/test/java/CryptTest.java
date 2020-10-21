@@ -13,6 +13,7 @@ public class CryptTest {
         assertEquals(0.0, CodeupCryptTest.version, 0);
         CodeupCryptTest.version = 1.0;
         assertEquals(1.0, CodeupCryptTest.version, 0);
+        assertNotEquals(0.0, CodeupCryptTest.version, 0);
 
     }
 
