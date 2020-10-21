@@ -29,12 +29,14 @@ public class myFirstTest {
     public void testIfArraysAreEqual(){
         int[] a = {1, 2, 3};
         int[] b = new int[3];
+        int[] c = {3, 2, 1};
+
         b[0] = 1;
         b[1] = 2;
         b[2] = 3;
 
         assertArrayEquals(a, b);
-        assertTrue(Arrays.equals(a, b));
+        assertFalse(Arrays.equals(a, c));
 
     }
 
