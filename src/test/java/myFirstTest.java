@@ -9,6 +9,7 @@ public class myFirstTest {
         String b = "Codeup";
 
         assertEquals(a, b);
+        assertNotEquals(a, b.toLowerCase());
     }
 
 
