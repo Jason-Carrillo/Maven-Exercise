@@ -17,4 +17,10 @@ public class CryptTest {
 
     }
 
+    @Test
+    public void hashPassword(){
+        assertEquals("jason",CodeupCryptTest.hashPassword("jason"));
+
+    }
+
 }
